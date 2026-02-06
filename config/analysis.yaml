@@ -1,0 +1,26 @@
+# Fraudware Analyzer Configuration
+
+analysis:
+  extract_strings: true
+  min_string_length: 4
+  extract_api_calls: true
+  analyze_sequences: true
+
+classification:
+  model_path: "./models/rf_classifier.pkl"
+  threshold: 0.7
+  use_heuristics: true
+
+yara:
+  rules_path: "./rules"
+  enabled: true
+
+output:
+  default_format: "html"
+  include_disassembly: false
+  verbose: true
+
+security:
+  sandbox_mode: true
+  max_file_size_mb: 100
+  timeout_seconds: 300
