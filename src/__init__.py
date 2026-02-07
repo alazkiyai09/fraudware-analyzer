@@ -12,7 +12,7 @@ DISCLAIMER: This tool is for educational and research purposes only.
 
 __version__ = "0.1.0"
 __author__ = "Ahmad Whafa Azka Al Azkiyai"
-__email__ = "alazkiyai09@gmail.com"
+__email__ = "azka.alazkiyai@outlook.com"
 
 from fraudware_analyzer.analyzer import Analyzer
 from fraudware_analyzer.result import AnalysisResult

@@ -10,7 +10,7 @@ setup(
     name="fraudware-analyzer",
     version="0.1.0",
     author="Ahmad Whafa Azka Al Azkiyai",
-    author_email="alazkiyai09@gmail.com",
+    author_email="azka.alazkiyai@outlook.com",
     description="Static analysis framework for detecting and classifying banking trojans through API call sequence analysis",
     long_description=long_description,
     long_description_content_type="text/markdown",
