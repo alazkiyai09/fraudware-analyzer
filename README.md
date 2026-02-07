@@ -314,6 +314,8 @@ fraudware-analyzer/
 
 ### Detection Performance
 
+Target detection rates (algorithm-level benchmarks):
+
 | Malware Family | Detection Rate | False Positive Rate | Avg. Analysis Time |
 |----------------|----------------|---------------------|-------------------|
 | Zeus | 98.2% | 0.5% | 2.3s |
@@ -327,6 +329,8 @@ fraudware-analyzer/
 
 ### Classification Accuracy
 
+Algorithm-level benchmarks:
+
 | Metric | Score |
 |--------|-------|
 | Overall Accuracy | 95.7% |
@@ -335,6 +339,8 @@ fraudware-analyzer/
 | F1-Score (Macro) | 94.1% |
 
 ### Tested On
+
+**Note:** Trained models and malware samples not included for security/size reasons.
 
 - **Dataset**: 10,000+ malware samples
 - **Clean Samples**: 5,000+ legitimate executables
